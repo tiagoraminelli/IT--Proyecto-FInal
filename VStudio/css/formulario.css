@@ -1,0 +1,71 @@
+:root{
+    --color: rbga(255,255,255,0.3);
+}
+
+body{
+    background-color: #FAD961;
+    background-image: url(/img/fondobar.webp);
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+
+}
+.conteiner{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+form{
+    background: var(--color);
+    padding: 1em;
+    height: 320px;
+    border-radius: 20px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    backdrop-filter: blur(10px);
+    box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: #ddd;
+    font-size: 12px;
+
+}
+input{
+    background: transparent;
+    width: 200px;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: none;
+    border-left: 1em solid;
+    border-top: 1px solid;
+    border-radius: 5000px;
+    backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500 ;
+    transition: all 0.2s ease-in-out;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+::placeholder{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+.drop{
+    background: var(--color);
+}
+p{
+    font-size: 40px;
+    color: #ddd;
+    font-family: 'Island Moments', cursive;
+    text-decoration: solid;
+}
